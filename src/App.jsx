@@ -8,8 +8,8 @@ function App() {
   };
 
   return (
-    <div className='w-full h-screen' style={{backgroundColor: color}}>
-      <div className='fixed bottom-15 left-1/2 -translate-x-1/2 bg-white rounded-full shadow-lg px-6 py-3 flex gap-4 justify-between'>
+    <div className='w-full h-screen duration-200' style={{backgroundColor: color}}>
+      <div className='fixed bottom-15 left-1/2 -translate-x-1/2 bg-white rounded-full shadow-lg px-6 py-3 flex flex-wrap gap-4 justify-between w-[90%] max-w-2xl'>
           <button type="button" className='cursor-pointer bg-blue-400 rounded-full px-4 py-2' onClick={() => {colorChanger("#42a5f5")}}>Blue</button>
           <button type="button" className='cursor-pointer bg-green-400 rounded-full px-4 py-2' onClick={() => {colorChanger("#66bb6a")}}>Green</button>
           <button type="button" className='cursor-pointer bg-pink-300 rounded-full px-4 py-2' onClick={() => {colorChanger("#f48fb1")}}>Pink</button>
